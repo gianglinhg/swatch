@@ -113,19 +113,18 @@ class Controller extends BaseController
         $text = strtolower($text);
         return $text;
     }
-    // public static function get_img_attachment($id){
-    //     $image = DB::table('media')->where('id', $id)->first();
-    //     list($width, $height, $type, $attr) = getimagesize($image->url);
-    //     dd($image);
+    public static function get_img_attachment($id){
+        $image = DB::table('media')->where('id', $id)->first();
+        list($width, $height, $type, $attr) = getimagesize($image->url);
 
-    //     if(!empty($image)){
-    //         $html = '<img width="'.$width.'" height="'.$height.'" src="'.asset($image->url).'" alt="'.$image->alt.'"/>';
-    //     }
-    //     else{
-    //         $html = '<img src="" alt=""/>';
-    //     }
-    //     return $html;
-    // }
+        if(!empty($image)){
+            $html = '<img width="'.$width.'" height="'.$height.'" src="'.asset($image->url).'" alt="'.$image->alt.'"/>';
+        }
+        else{
+            $html = '<img src="" alt=""/>';
+        }
+        return $html;
+    }
     public static function get_img_url($id){
         $image = DB::table('media')->where('id', $id)->first();
         if(!empty($image)){
