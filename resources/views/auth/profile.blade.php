@@ -249,7 +249,7 @@
             height: 6.25rem;
             content: '';
             transform: translate(-50%, -50%);
-            background-image: url('{{asset('image/loading.gif')}}');
+            background-image: url('{{asset('public/image/loading.gif')}}');
             background-repeat: no-repeat;
             background-size: contain;
         }

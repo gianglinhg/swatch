@@ -118,7 +118,7 @@ class Controller extends BaseController
         list($width, $height, $type, $attr) = getimagesize('public/'.$image->url);
 
         if(!empty($image)){
-            $html = '<img width="'.$width.'" height="'.$height.'" src="'.asset($image->url).'" alt="'.$image->alt.'"/>';
+            $html = '<img width="'.$width.'" height="'.$height.'" src="public/'.asset($image->url).'" alt="'.$image->alt.'"/>';
         }
         else{
             $html = '<img src="" alt=""/>';
