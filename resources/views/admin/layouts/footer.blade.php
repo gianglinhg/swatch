@@ -46,20 +46,20 @@
 </script>
 
 <!-- jQuery  -->
-<script src="{{asset('/assets-admin/js/jquery.min.js')}}"></script>
-<script src="{{asset('/assets-admin/js/popper.min.js')}}"></script><!-- Tether for Bootstrap -->
-<script src="{{asset('/assets-admin/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('/assets-admin/js/fastclick.js')}}"></script>
-<script src="{{asset('/assets-admin/js/waves.js')}}"></script>
-<script src="{{asset('/assets-admin/plugins/switchery/switchery.min.js')}}"></script>
+<script src="{{asset('/public/assets-admin/js/jquery.min.js')}}"></script>
+<script src="{{asset('/public/assets-admin/js/popper.min.js')}}"></script><!-- Tether for Bootstrap -->
+<script src="{{asset('/public/assets-admin/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('/public/assets-admin/js/fastclick.js')}}"></script>
+<script src="{{asset('/public/assets-admin/js/waves.js')}}"></script>
+<script src="{{asset('/public/assets-admin/plugins/switchery/switchery.min.js')}}"></script>
 
 <!-- Counter Up  -->
-<script src="{{asset('/assets-admin/plugins/waypoints/lib/jquery.waypoints.min.js')}}"></script>
-<script src="{{asset('/assets/js/counterUp.js')}}"></script>
+<script src="{{asset('/public/assets-admin/plugins/waypoints/lib/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('/public/assets/js/counterUp.js')}}"></script>
 
 <!-- App js -->
-<script src="{{asset('/assets-admin/js/jquery.core.js')}}"></script>
-<script src="{{asset('/assets-admin/js/jquery.app.js')}}"></script>
+<script src="{{asset('/public/assets-admin/js/jquery.core.js')}}"></script>
+<script src="{{asset('/public/assets-admin/js/jquery.app.js')}}"></script>
 
 {{--Custom JS--}}
 <script src="{{asset('assets-admin/js/custom.js')}}"></script>
@@ -75,7 +75,7 @@
 </script>
 
 <!-- Modal-Effect -->
-<script src="{{asset('/assets-admin/plugins/custombox/js/custombox.min.js')}}"></script>
+<script src="{{asset('/public/assets-admin/plugins/custombox/js/custombox.min.js')}}"></script>
 <script src="{{asset('assets-admin/plugins/custombox/js/legacy.min.js')}}"></script>
 {{----}}
 <script type="text/javascript" src="{{asset('assets-admin/plugins/parsleyjs/parsley.min.js')}}"></script>
