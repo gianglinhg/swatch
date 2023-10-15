@@ -115,7 +115,7 @@ class Controller extends BaseController
     }
     public static function get_img_attachment($id){
         $image = DB::table('media')->where('id', $id)->first();
-        list($width, $height, $type, $attr) = getimagesize($image->url);
+        list($width, $height, $type, $attr) = getimagesize('public/'.$image->url);
 
         if(!empty($image)){
             $html = '<img width="'.$width.'" height="'.$height.'" src="'.asset($image->url).'" alt="'.$image->alt.'"/>';
